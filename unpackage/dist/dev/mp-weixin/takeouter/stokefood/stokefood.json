@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "uni-popup": "/components/uni-popup/uni-popup",
+    "uni-nav-bar": "/components/uni-nav-bar/uni-nav-bar",
+    "list-cell": "/components/list-cell/list-cell",
+    "modal": "/components/modal/modal"
+  }
+}

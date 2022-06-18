@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "饱格",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "uni-popup": "/components/uni-popup/uni-popup"
+  }
+}

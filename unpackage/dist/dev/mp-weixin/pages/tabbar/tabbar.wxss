@@ -1,0 +1,1201 @@
+@charset "UTF-8";
+/**
+ * 这里是app内置的常用样式变量
+ *
+ * app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.container.data-v-7d4b5c24 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #FFFFFF;
+}
+.bg.data-v-7d4b5c24 {
+  background-color: #424141;
+  height: 25vh;
+}
+.main.data-v-7d4b5c24 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+.userinfo.data-v-7d4b5c24 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.userinfo .avatar.data-v-7d4b5c24 {
+  position: relative;
+  width: 140rpx;
+  height: 140rpx;
+  border-radius: 100%;
+  margin-top: -70rpx;
+  margin-bottom: 20rpx;
+}
+.userinfo .username.data-v-7d4b5c24 {
+  font-size: 36rpx;
+  font-size: 60rpx;
+  font-weight: bold;
+  margin-bottom: 50rpx;
+}
+.userinfo .desc.data-v-7d4b5c24 {
+  font-size: 24rpx;
+  color: #999;
+  margin-bottom: 20rpx;
+}
+.code-section.data-v-7d4b5c24 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 26rpx;
+  color: 26rpx;
+}
+.code-section .tips.data-v-7d4b5c24 {
+  font-size: 24rpx;
+  color: #999;
+}
+
+@charset "UTF-8";
+/**
+ * 这里是app内置的常用样式变量
+ *
+ * app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.brand.data-v-7d4b5c24 {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40rpx 0;
+  margin-bottom: 20rpx;
+}
+.brand .avatar.data-v-7d4b5c24 {
+  width: 200rpx;
+  height: 200rpx;
+  border-radius: 100%;
+  margin-bottom: 30rpx;
+}
+.brand .username.data-v-7d4b5c24 {
+  color: 28rpx;
+  font-weight: bold;
+}
+.user-form .form-item.data-v-7d4b5c24 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.user-form .form-item .label.data-v-7d4b5c24 {
+  width: 160rpx;
+}
+.user-form .form-item input.data-v-7d4b5c24 {
+  flex: 1;
+}
+.user-form .form-item .radio.data-v-7d4b5c24 {
+  display: flex;
+  margin-right: 50rpx;
+}
+.user-form .form-item .radio image.data-v-7d4b5c24 {
+  width: 40rpx;
+  height: 40rpx;
+  margin-right: 20rpx;
+}
+.save-btn.data-v-7d4b5c24 {
+  padding: 0 30rpx;
+  margin-top: 60rpx;
+}
+.save-btn button.data-v-7d4b5c24 {
+  width: 100%;
+  font-size: 36rpx;
+}
+.telphone-modal .header.data-v-7d4b5c24 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  font-size: 36rpx;
+  font-weight: bold;
+  margin-bottom: 30rpx;
+}
+.telphone-modal .header .close-icon.data-v-7d4b5c24 {
+  width: 60rpx;
+  height: 60rpx;
+  position: absolute;
+  right: 0;
+}
+.telphone-modal .tips.data-v-7d4b5c24 {
+  color: #666;
+  line-height: 1.2rem;
+  margin-bottom: 50rpx;
+}
+.telphone-modal .telphone-form.data-v-7d4b5c24 {
+  font-size: 26rpx;
+}
+.telphone-modal .telphone-form .telphone-input.data-v-7d4b5c24 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.telphone-modal .telphone-form .telphone-input .prefix.data-v-7d4b5c24 {
+  color: #DBA871;
+  display: flex;
+  align-items: center;
+  padding-right: 20rpx;
+  position: relative;
+  margin-right: 10rpx;
+}
+.telphone-modal .telphone-form .telphone-input .prefix.data-v-7d4b5c24::after {
+  content: " ";
+  position: absolute;
+  width: 4rpx;
+  background-color: #c8c7cc;
+}
+.telphone-modal .telphone-form .telphone-input input.data-v-7d4b5c24 {
+  flex: 1;
+}
+.telphone-modal .telphone-form .verfiycode-input.data-v-7d4b5c24 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.telphone-modal .telphone-form .verfiycode-input .countdown.data-v-7d4b5c24 {
+  font-size: 26rpx;
+}
+.telphone-modal .footer.data-v-7d4b5c24 {
+  margin-top: 30rpx;
+}
+.telphone-modal .footer button.data-v-7d4b5c24 {
+  font-size: 32rpx;
+}
+
+@charset "UTF-8";
+/**
+ * 这里是app内置的常用样式变量
+ *
+ * app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.container {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+}
+.header {
+  z-index: 10;
+}
+.header .search-box {
+  height: 100rpx;
+  padding: 20rpx 40rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header .search-box .search-input {
+  height: 60rpx;
+  width: 100%;
+  background-color: #f7f7f7;
+  font-size: 26rpx;
+  border-radius: 50rem !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header .search-box .search-input .search-icon {
+  width: 30rpx;
+  height: 30rpx;
+  margin-right: 10rpx;
+}
+.header .center {
+  height: 130rpx;
+  padding: 10rpx 40rpx;
+  display: flex;
+  flex-direction: column;
+}
+.header .center .store {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header .center .store .title {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  font-size: 32rpx;
+  color: #343434;
+  font-weight: bold;
+  overflow: hidden;
+}
+.header .center .store .title .address {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.header .center .store .title .left-icon {
+  flex-shrink: 0;
+  width: 30rpx;
+  height: 30rpx;
+  margin: 10rpx;
+}
+.header .center .store .title .right-icon {
+  flex-shrink: 0;
+  width: 40rpx;
+  height: 40rpx;
+}
+.header .center .store .buttons {
+  display: flex;
+  align-items: stretch;
+  background-color: #f6f6f6;
+  border-radius: 50rem !important;
+  padding: 4rpx;
+  border: 2rpx solid #eaeaea;
+}
+.header .center .store .buttons .button {
+  height: 100%;
+  width: 50%;
+  border-radius: 50rem !important;
+  border: 0 !important;
+  font-size: 24rpx !important;
+  line-height: 2.4 !important;
+}
+.header .center .store .buttons .button.active {
+  background-color: #343434;
+  color: #ffffff !important;
+  transition: all 0.3s;
+}
+.header .center .location {
+  font-size: 26rpx;
+  color: #999;
+}
+.header .notices {
+  height: 60rpx;
+  display: flex;
+  align-items: stretch;
+  padding: 10rpx 40rpx;
+  font-size: 24rpx;
+  color: #999;
+  box-shadow: 0 20rpx 20rpx -20rpx rgba(51, 51, 51, 0.1);
+}
+.header .notices .swiper {
+  height: 100%;
+  flex: 1;
+}
+.header .notices .swiper .swiper-item {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+}
+.header .notices .swiper .swiper-item .image {
+  width: 30rpx;
+  height: 30rpx;
+  flex-shrink: 0;
+  margin-right: 10rpx;
+}
+.header .notices .swiper .swiper-item .content {
+  flex: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.header .notices .more {
+  padding-left: 20rpx;
+  display: flex;
+  align-items: center;
+}
+.header .notices .more .down-icon {
+  margin-left: 10rpx;
+  width: 40rpx;
+  height: 40rpx;
+}
+.main {
+  flex: 1;
+  display: flex;
+  overflow: hidden;
+}
+.menu-bar {
+  width: 170rpx;
+  background-color: #f6f6f6;
+}
+.menu-bar .wrapper {
+  height: auto;
+}
+.menu-bar .wrapper .menu-item {
+  padding: 30rpx 20rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 26rpx;
+  color: #999;
+  overflow: hidden;
+}
+.menu-bar .wrapper .menu-item:nth-last-child(1) {
+  margin-bottom: 100rpx;
+}
+.menu-bar .wrapper .menu-item .image {
+  width: 50rpx;
+  height: 50rpx;
+}
+.menu-bar .wrapper .menu-item .title {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.menu-bar .wrapper .menu-item.active {
+  background-color: #ffffff;
+  color: #343434;
+  font-weight: 500 !important;
+  border-left: 7rpx solid #DBA871;
+}
+.product-section {
+  flex: 1;
+}
+.product-section .wrapper {
+  padding: 0 20rpx;
+  padding-bottom: 130rpx;
+}
+.product-section .ads1,
+.product-section .ads2 {
+  height: 300rpx;
+}
+.product-section .ads1 {
+  margin-bottom: 20rpx;
+}
+.product-section .products-list .category-name {
+  padding: 30rpx 0;
+  font-size: 26rpx;
+  color: #999;
+}
+.product-section .products-list .products {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20rpx;
+}
+.product-section .products-list .product {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40rpx;
+}
+.product-section .products-list .product .image {
+  width: 180rpx;
+  height: 135rpx;
+  flex-shrink: 0;
+}
+.product-section .products-list .product .content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+.product-section .products-list .product .content .name {
+  font-size: 28rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin-bottom: 8rpx;
+}
+.product-section .products-list .product .content .labels {
+  display: flex;
+  font-size: 20rpx;
+  margin-bottom: 8rpx;
+  overflow: hidden;
+  flex-wrap: wrap;
+}
+.product-section .products-list .product .content .labels .label {
+  max-width: 40%;
+  padding: 6rpx 10rpx;
+  margin-right: 10rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.product-section .products-list .product .content .description {
+  margin-bottom: 20rpx;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  color: #999;
+  font-size: 24rpx;
+}
+.product-section .products-list .product .content .price {
+  font-size: 36rpx;
+  color: 26rpx;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.cart-actions {
+  display: flex;
+  align-items: center;
+}
+.cart-actions .add-btn,
+.cart-actions .minus-btn {
+  width: 50rpx;
+  height: 50rpx;
+}
+.cart-actions .number {
+  width: 50rpx;
+  height: 50rpx;
+  margin: 0 20rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 36rpx;
+}
+
+@charset "UTF-8";
+/**
+ * 这里是app内置的常用样式变量
+ *
+ * app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+page {
+  height: auto;
+}
+.banner-swiper {
+  height: 750rpx;
+}
+.banner-swiper .swier-item image {
+  height: 100%;
+}
+.banner-section {
+  display: flex;
+  background-color: #FFFFFF;
+}
+.banner-section image {
+  width: 375rpx;
+}
+.section-header {
+  display: flex;
+  align-items: baseline;
+  padding: 20rpx 0;
+}
+.section-header .title {
+  font-family: 'wenyue';
+  font-size: 44rpx;
+  margin-right: 20rpx;
+}
+.section-header .subtitle {
+  font-family: 'neutra';
+  font-size: 24rpx;
+  color: #999;
+}
+.content-section {
+  background-color: #FFFFFF;
+  padding: 0 30rpx;
+}
+.new-arrivals {
+  margin-bottom: 20rpx;
+}
+.new-arrivals .section-body {
+  display: flex;
+  flex-direction: column;
+}
+.new-arrivals .section-body image {
+  width: 100%;
+  margin-bottom: 10rpx;
+}
+.you-may-also-like {
+  padding: 20rpx 30rpx;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.you-may-also-like .product {
+  background-color: #FFFFFF;
+  width: 335rpx;
+  display: flex;
+  flex-direction: column;
+  border-radius: 12rpx;
+  margin-bottom: 20rpx;
+}
+.you-may-also-like .product image {
+  width: 100%;
+  border-radius: 12rpx 12rpx 0 0;
+}
+.you-may-also-like .product .info {
+  padding: 20rpx;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+.you-may-also-like .product .info .desc {
+  display: flex;
+  flex-direction: column;
+}
+.you-may-also-like .product .info .desc .title {
+  font-size: 32rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin-bottom: 14rpx;
+}
+.you-may-also-like .product .info .desc .sub {
+  font-size: 24rpx;
+  color: #999;
+}
+.you-may-also-like .product .info .extra {
+  margin-top: 20rpx;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.you-may-also-like .product .info .extra .price {
+  color: #DBA871;
+  font-size: 32rpx;
+  font-weight: 500 !important;
+}
+.you-may-also-like .product .info .extra .action image {
+  width: 40rpx;
+  height: 40rpx;
+}
+
+@charset "UTF-8";
+/**
+ * 这里是app内置的常用样式变量
+ *
+ * app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+page.data-v-6eb5e5d4 {
+  background-color: #d8d8d8;
+}
+.navbar.data-v-6eb5e5d4 {
+  height: calc(44px + 25px);
+  display: flex;
+  background-color: #FFFFFF;
+}
+.talk-btn.data-v-6eb5e5d4 {
+  height: 32px;
+  margin-left: 10px;
+  margin-top: 26px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24rpx !important;
+  padding: 0 20rpx;
+  border-radius: 50rem !important;
+}
+.talk-btn image.data-v-6eb5e5d4 {
+  width: 40rpx;
+  height: 40rpx;
+  margin-right: 10rpx;
+}
+.tabbar.data-v-6eb5e5d4 {
+  height: 100rpx;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.tabbar .item.data-v-6eb5e5d4 {
+  height: 100%;
+  font-size: 32rpx;
+  color: #999;
+  font-weight: 400 !important;
+  display: flex;
+  align-items: center;
+}
+.tabbar .item.active.data-v-6eb5e5d4 {
+  color: #343434;
+  border-bottom: 4rpx solid #343434;
+}
+.swiper.data-v-6eb5e5d4 {
+  width: 100%;
+  height: calc(100vh - 44px - 25px - 110rpx);
+}
+.no-order-content.data-v-6eb5e5d4 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.no-order-content image.data-v-6eb5e5d4 {
+  width: 300rpx;
+  height: 300rpx;
+  margin-bottom: 50rpx;
+}
+.no-order-content .tips.data-v-6eb5e5d4 {
+  color: #999;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 1.2rem !important;
+  margin-bottom: 70rpx;
+}
+.no-order-content button.data-v-6eb5e5d4 {
+  width: 50%;
+}
+.history-order.data-v-6eb5e5d4 {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.history-order .menu.data-v-6eb5e5d4 {
+  padding: 18rpx 30rpx;
+  display: flex;
+  align-items: center;
+  font-size: 26rpx;
+  color: #666;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+}
+.history-order .menu .item.data-v-6eb5e5d4 {
+  padding: 14rpx 30rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.history-order .menu .item image.data-v-6eb5e5d4 {
+  width: 40rpx;
+  height: 40rpx;
+  margin-right: 10rpx;
+}
+.history-order .menu .item.active.data-v-6eb5e5d4 {
+  color: #DBA871;
+  background-color: #ffffff;
+}
+.history-order .history-order-swiper.data-v-6eb5e5d4 {
+  width: 100%;
+  height: 100%;
+}
+.store-order-wrapper.data-v-6eb5e5d4 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 26rpx;
+  color: #999;
+  line-height: 1.3rem !important;
+}
+.store-order-wrapper image.data-v-6eb5e5d4 {
+  width: 400rpx;
+  height: 333rpx;
+  margin-bottom: 40rpx;
+}
+.orders-scroll.data-v-6eb5e5d4 {
+  width: 100%;
+  height: 100%;
+  padding-top: 104rpx;
+}
+.order-list.data-v-6eb5e5d4 {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+.order-list .order.data-v-6eb5e5d4 {
+  background-color: #f8f8f8;
+  padding: 30rpx 40rpx;
+  margin-bottom: 18rpx;
+}
+.order-list .order .header.data-v-6eb5e5d4 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.order-list .order .header .status.data-v-6eb5e5d4 {
+  font-size: 26rpx;
+  color: #666;
+  display: flex;
+  align-items: center;
+}
+.order-list .order .header .status image.data-v-6eb5e5d4 {
+  width: 30rpx;
+  height: 30rpx;
+  margin-left: 10rpx;
+}
+.order-list .order .images.data-v-6eb5e5d4 {
+  display: flex;
+  padding: 30rpx 0;
+}
+.order-list .order .images image.data-v-6eb5e5d4 {
+  flex-shrink: 0;
+  width: 150rpx;
+  height: 112.5rpx;
+}
+.order-list .order .info.data-v-6eb5e5d4 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30rpx;
+}
+.order-list .order .info .left.data-v-6eb5e5d4 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  font-size: 26rpx;
+  color: #666;
+}
+.order-list .order .info .right.data-v-6eb5e5d4 {
+  font-size: 32rpx;
+  color: #343434;
+}
+.order-list .order .action.data-v-6eb5e5d4 {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.order-list .order .action button.data-v-6eb5e5d4 {
+  margin-left: 30rpx;
+  font-size: 24rpx;
+}
+
+@charset "UTF-8";
+/**
+ * 这里是app内置的常用样式变量
+ *
+ * app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.content.data-v-0be17cc6 {
+  padding: 0 30rpx;
+}
+.welcome.data-v-0be17cc6 {
+  position: relative;
+  margin-top: -136rpx;
+  display: flex;
+  flex-direction: column;
+  font-size: 32rpx;
+  color: #432A21;
+}
+.member-card.data-v-0be17cc6 {
+  background-color: #ffffff;
+  padding: 20rpx;
+  display: flex;
+  flex-direction: column;
+  border-radius: 6rpx;
+  margin-bottom: 40rpx;
+}
+.member-card .info.data-v-0be17cc6 {
+  position: relative;
+  margin-top: -50rpx;
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding: 20rpx 0;
+}
+.member-card .info .title.data-v-0be17cc6 {
+  flex: 1;
+  font-size: 40rpx;
+  color: #343434;
+  display: flex;
+  align-items: center;
+}
+.member-card .info .title .tips.data-v-0be17cc6 {
+  margin-left: 10rpx;
+  font-size: 24rpx;
+  color: #999;
+  background-color: #e9e9e9;
+  padding: 10rpx 30rpx;
+  border-radius: 50rem !important;
+  display: flex;
+  align-items: center;
+}
+.member-card .info .title .tips image.data-v-0be17cc6 {
+  width: 20rpx;
+  height: 20rpx;
+}
+.member-card .info .avatar.data-v-0be17cc6 {
+  width: 150rpx;
+  height: 150rpx;
+  border-radius: 100%;
+}
+.member-card .info .badage.data-v-0be17cc6 {
+  font-family: 'neutra';
+  position: absolute;
+  bottom: 20rpx;
+  left: 0;
+  border: 2rpx solid #343434;
+  padding: 2rpx 20rpx;
+  border-radius: 12rpx;
+  font-size: 26rpx;
+}
+.member-card .row.data-v-0be17cc6 {
+  margin-top: 20rpx;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.member-card .row .grid.data-v-0be17cc6 {
+  flex: 1;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.member-card .row .grid image.data-v-0be17cc6 {
+  width: 100rpx;
+  height: 100rpx;
+}
+.member-card .row .grid .value.data-v-0be17cc6 {
+  font-family: 'neutra';
+  margin-bottom: 10rpx;
+  font-size: 32rpx;
+}
+.member-card .row .grid .title.data-v-0be17cc6 {
+  font-size: 24rpx;
+  color: #666;
+}
+.xinqiubobao.data-v-0be17cc6 {
+  width: 100%;
+  position: relative;
+}
+.xinqiubobao .title.data-v-0be17cc6 {
+  margin: 10rpx 0;
+  font-size: 32rpx;
+  font-weight: 500;
+}
+.xinqiubobao .swiper.data-v-0be17cc6 {
+  height: 200rpx;
+  margin-bottom: 10rpx;
+}
+.xinqiubobao .swiper .swiper-item .swiper-item-wrapper.data-v-0be17cc6 {
+  display: flex;
+  background-color: #ffffff;
+  padding: 40rpx 60rpx;
+  border-radius: 6rpx;
+  align-items: center;
+  margin-right: 40rpx;
+}
+.xinqiubobao .swiper .swiper-item .swiper-item-wrapper image.data-v-0be17cc6 {
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 100%;
+  margin-right: 20rpx;
+}
+.xinqiubobao .swiper .swiper-item .swiper-item-wrapper .desc.data-v-0be17cc6 {
+  display: flex;
+  flex-direction: column;
+}
+.xinqiubobao .swiper .swiper-item .swiper-item-wrapper .desc .title.data-v-0be17cc6 {
+  font-size: 28rpx;
+  font-weight: 500;
+  margin-bottom: 10rpx;
+}
+.xinqiubobao .swiper .swiper-item .swiper-item-wrapper .desc .desc.data-v-0be17cc6 {
+  font-size: 24rpx;
+  color: #666;
+}
+.task-center.data-v-0be17cc6 {
+  margin: 40rpx 0;
+  background-color: #ffffff;
+  padding: 10rpx 0;
+  display: flex;
+  align-items: center;
+  border-radius: 12rpx;
+}
+.task-center .intro.data-v-0be17cc6 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.task-center .intro .title.data-v-0be17cc6 {
+  font-size: 32rpx;
+  color: #343434;
+}
+.task-center .intro .subtitle.data-v-0be17cc6 {
+  font-family: 'neutra';
+  font-size: 24rpx;
+}
+.task-center .image-wrapper.data-v-0be17cc6 {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.task-center .image-wrapper image.data-v-0be17cc6 {
+  width: 200rpx;
+  height: 200rpx;
+}
+.open-gift.data-v-0be17cc6 {
+  width: 100%;
+  background-color: #ffffff;
+  padding: 30rpx 40rpx;
+  margin-bottom: 20rpx;
+}
+.open-gift .header.data-v-0be17cc6 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20rpx;
+}
+.open-gift .header .title.data-v-0be17cc6 {
+  font-size: 32rpx;
+  font-weight: 500;
+}
+.open-gift .header .subtitle.data-v-0be17cc6 {
+  font-size: 26rpx;
+  color: #666;
+}
+.open-gift .row.data-v-0be17cc6 {
+  display: flex;
+  flex-wrap: wrap;
+}
+.open-gift .row .grid.data-v-0be17cc6 {
+  width: 33.3333%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20rpx;
+}
+.open-gift .row .grid image.data-v-0be17cc6 {
+  width: 70rpx;
+  height: 70rpx;
+  margin-bottom: 20rpx;
+}
+.open-gift .row .grid .title.data-v-0be17cc6 {
+  font-size: 26rpx;
+  color: #343434;
+  display: flex;
+  align-items: baseline;
+}
+.open-gift .row .grid .title .number.data-v-0be17cc6 {
+  margin-left: 5rpx;
+  font-family: 'neutra';
+  color: #f0ad4e;
+}
+.list-cell-wrapper.data-v-0be17cc6 {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.list-cell-wrapper .title.data-v-0be17cc6 {
+  font-size: 32rpx;
+}
+.list-cell-wrapper .subtitle.data-v-0be17cc6 {
+  font-size: 24rpx;
+  color: #999;
+}
+
+@charset "UTF-8";
+/**
+ * 这里是app内置的常用样式变量
+ *
+ * app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.code-section {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 26rpx;
+  color: 26rpx;
+}
+.code-section .tips {
+  font-size: 24rpx;
+  color: #999;
+}
+.user-form .form-item {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.user-form .form-item .label {
+  width: 160rpx;
+}
+.user-form .form-item input {
+  flex: 1;
+}
+.user-form .form-item .radio {
+  display: flex;
+  margin-right: 50rpx;
+}
+.user-form .form-item .radio image {
+  width: 40rpx;
+  height: 40rpx;
+  margin-right: 20rpx;
+}
+.box .cu-bar {
+  display: flex;
+  z-index: 1000;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+.action {
+  display: block;
+  margin: 0 auto;
+  flex: 1;
+}
+.action view {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+.logo_btn {
+  width: 76rpx;
+  height: 76rpx;
+  position: absolute;
+  z-index: 2;
+  border-radius: 50%;
+  top: -40rpx;
+  left: 0rpx;
+  right: 0;
+  margin: auto;
+  padding: 0;
+}
+.cuIcon-cu-image {
+  margin: 0 auto;
+  height: 70rpx;
+}
+.cuIcon-cu-image image {
+  display: block;
+  margin: 0 auto;
+  height: 70rpx;
+  width: 70rpx;
+}
+
